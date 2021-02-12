@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "f5-run-file:execute"
+    "atom-workspace": "f5-run-file:toggle"
   },
   "repository": "https://github.com/n-arms/f5-run-file",
   "license": "MIT",

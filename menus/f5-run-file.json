@@ -4,6 +4,10 @@
       {
         "label": "Toggle f5-run-file",
         "command": "f5-run-file:toggle"
+      },
+      {
+        "label": "Execute f5-run-file",
+        "command": "f5-run-file:execute"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Toggle",
               "command": "f5-run-file:toggle"
+            },
+            {
+              "label": "Execute",
+              "command": "f5-run-file:execute"
             }
           ]
         }

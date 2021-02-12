@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "f5": "f5-run-file:execute"
+    "f5": "f5-run-file:execute",
+    "ctrl-alt-a": "f5-run-file:toggle"
   }
 }
