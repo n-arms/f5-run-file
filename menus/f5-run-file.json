@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle f5-run-file",
+        "command": "f5-run-file:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "f5-run-file",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "f5-run-file:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

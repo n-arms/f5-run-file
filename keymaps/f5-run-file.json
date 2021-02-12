@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "f5-run-file:toggle"
+  }
+}

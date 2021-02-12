@@ -1,0 +1,19 @@
+{
+  "name": "f5-run-file",
+  "main": "./lib/f5-run-file",
+  "version": "0.0.0",
+  "description": "A package to allow you to run files from inside the text editor",
+  "keywords": [
+    ""
+  ],
+  "activationCommands": {
+    "atom-workspace": "f5-run-file:execute"
+  },
+  "repository": "https://github.com/n-arms/f5-run-file",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
