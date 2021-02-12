@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "description": "A package to allow you to run files from inside the text editor",
   "keywords": [
-    ""
   ],
   "activationCommands": {
     "atom-workspace": "f5-run-file:execute"
