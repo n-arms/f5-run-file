@@ -25,13 +25,14 @@ where each command obeys the following syntax:
 
 ```
 {
-  "command": "<name of command>"
+  "command": "<name of command>",
   "args": [
     "<argument 1>",
     "<argument 2>",
     ...
     "<argument n>"
-  ]
+  ],
+  "stdin": "here is some input that is passed to stdin"
 }
 ```
 
@@ -58,8 +59,7 @@ To set up a launch.json that compiles main.cpp into a.out, and then runs it you 
       ]
     },
     {
-      "command": "./bin/a.out",
-      "args": []
+      "command": "./bin/a.out"
     }
   ]
 }
