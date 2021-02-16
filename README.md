@@ -8,8 +8,7 @@ This package is designed to allow you to run files from inside the editor. It is
 ## local set up
 Inside the root of the current project you can set up a launch.json file to determine the commands to be run.
 
-## JSON setup
-To set up the commands to be run use the following syntax:
+To set up the commands to be run use the following syntax
 
 ```
 {
@@ -46,7 +45,7 @@ learning-cpp
 └── bin
     └── a.out
 ```
-To set up a launch.json that compiels main.cpp and main.h into a.out, and then runs it you would do:
+To set up a launch.json that compiles main.cpp into a.out, and then runs it you would do:
 ```
 {
   "commands": [
@@ -65,3 +64,6 @@ To set up a launch.json that compiels main.cpp and main.h into a.out, and then r
   ]
 }
 ```
+
+## Licensing
+This project uses the MIT license. For more info please see LICENSE.md
