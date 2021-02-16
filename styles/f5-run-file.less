@@ -1,11 +1,11 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
 
+@default-panel-color: hsl(180, 15%, 20%);
+@default-font: monospace;
+@default-font-size: 14px;
+
 .f5-run-file {
-  background-color: hsl(180, 15%, 20%);
+  background-color: @default-panel-color;
 }
 
 #sidepanel {
@@ -13,21 +13,21 @@
   max-height: 400px;
   min-height: 400px;
   overflow: scroll;
-  background-color: hsl(180, 15%, 20%);
+  background-color: @default-panel-color;
   border-width: 0px;
+  font-family: @default-font;
+  font-size: @default-font-size;
 }
 
 #inputform {
   padding: 20px 30px;
-  background-color: hsl(180, 15%, 20%);
+  background-color: @default-panel-color;
   border-width: 0px;
-}
-
-#mainpanel {
-  background-color: hsl(180, 15%, 20%);
+  font-family: @default-font;
+  font-size: @default-font-size;
 }
 
 hr {
   border-top: 2px solid hsl(180, 15%, 42%);
-  margin: 0px 5px
+  margin: 5px 5px
 }
