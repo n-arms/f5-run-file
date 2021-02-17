@@ -5,27 +5,29 @@ This package is designed to allow you to run files from inside the editor. It is
 * You can open up an IO panel with ctrl-alt-a
 * You can run a series of custom bash commands with f5
 
-## default commands
-By default following languages are support out of the box:
-#### python3
-The default command for files with the .py extension is:
+## global set up
+Inside of .atom/packages/f5-run-file/lib/config.json is a list of all the default file extensions and the commands to be run when a launch.json file is not found. By default the following languages are supported:
+* python3
+* c++11
+* c99
+* java
+* bash
+
+To add more languages, just add more file extensions to config.json, using the following syntax:
+
 ```
-python3 ./FILENAME
+"<extension>": {
+  "commands": [
+    <command 1>,
+    <command 2>,
+    ....
+    <command n>
+  ]
+}
 ```
 
-#### c++11
-The default command chain for files with the .cpp extension is:
-```
-g++ -std=c++11 -Wall -Wextra -pedantic -O2 -o bin FILENAME
-./bin
-```
+Where each command follows the syntax describe below in local set up for commands.
 
-#### java
-The default command chain for files with the .java extension is:
-```
-javac FILENAME
-java FILENAME
-```
 
 ## local set up
 Inside the root of the current project you can set up a launch.json file to determine the commands to be run.
