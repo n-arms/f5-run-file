@@ -32,5 +32,25 @@
         "args": ["FILENAME"]
       }
     ]
+  },
+
+  "sh": {
+    "commands": [
+      {
+        "command": "FILEPATH"
+      }
+    ]
+  },
+
+  "c": {
+    "commands": [
+      {
+        "command": "cc",
+        "args": ["-std=c99", "-o", "bin", "FILEPATH"]
+      },
+      {
+        "command": "./bin"
+      }
+    ]
   }
 }
