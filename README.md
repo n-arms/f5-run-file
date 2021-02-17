@@ -5,6 +5,28 @@ This package is designed to allow you to run files from inside the editor. It is
 * You can open up an IO panel with ctrl-alt-a
 * You can run a series of custom bash commands with f5
 
+## default commands
+By default following languages are support out of the box:
+#### python3
+The default command for files with the .py extension is:
+```
+python3 ./FILENAME
+```
+
+#### c++11
+The default command chain for files with the .cpp extension is:
+```
+g++ -std=c++11 -Wall -Wextra -pedantic -O2 -o bin FILENAME
+./bin
+```
+
+#### java
+The default command chain for files with the .java extension is:
+```
+javac FILENAME
+java FILENAME
+```
+
 ## local set up
 Inside the root of the current project you can set up a launch.json file to determine the commands to be run.
 
