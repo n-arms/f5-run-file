@@ -1,0 +1,36 @@
+{
+  "py": {
+    "commands": [
+      {
+        "command": "python3",
+        "args": ["FILEPATH"]
+      }
+    ]
+  },
+
+  "cpp": {
+    "commands": [
+      {
+        "command": "g++",
+        "args": ["-std=c++11", "-o", "bin", "FILEPATH"]
+      },
+      {
+        "command": "./bin",
+        "args": []
+      }
+    ]
+  },
+
+  "java": {
+    "commands": [
+      {
+        "command": "javac",
+        "args": ["FILEPATH"]
+      },
+      {
+        "command": "java",
+        "args": ["FILENAME"]
+      }
+    ]
+  }
+}
