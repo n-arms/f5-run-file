@@ -13,6 +13,7 @@ Inside of .atom/packages/f5-run-file/lib/config.json is a list of all the defaul
 * c99
 * java
 * bash
+* golang
 
 To add more languages, just add more file extensions to config.json, using the following syntax:
 
@@ -76,7 +77,7 @@ learning-cpp
     └── a.out
 ```
 To set up a launch.sh that compiles main.cpp into a.out, and then runs it you would do:
-```bash
+```shell
 g++ -o bin/a.out main.cpp
 ./bin/a.out
 ```

@@ -2,7 +2,7 @@
   "name": "f5-run-file",
   "main": "./lib/f5-run-file",
   "version": "0.1.0",
-  "description": "A package to allow you to run files from inside the text editor",
+  "description": "Allow you to run files from inside the editor",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "f5-run-file:toggle"

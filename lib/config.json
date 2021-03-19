@@ -42,6 +42,18 @@
     ]
   },
 
+  "go": {
+    "commands": [
+      {
+        "command": "go",
+        "args": ["build", "-o", "bin", "FILEPATH"]
+      },
+      {
+        "command": "./bin"
+      }
+    ]
+  },
+
   "c": {
     "commands": [
       {
